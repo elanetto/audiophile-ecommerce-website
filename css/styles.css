@@ -1,0 +1,58 @@
+*  {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #D87D4A;
+    --secondary: #101010;
+    --tertiary: #F1F1F1;
+    --quaternary: #F1F1F1;
+
+    --primary-lighter: #fbaf85;
+    --white: #FFFFFF;
+    --back: #000000;
+}
+
+body {
+    margin: 0;
+}
+
+#desktop-section {
+    display: none;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+    #desktop-section {
+        display: block;
+    }
+    #mobile-section {
+        display: none;
+    }
+
+}
+
+/* Medium */
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* Large */
+@media (min-width: 1024px) {
+    h1 {
+        color: green;
+    }
+}
+
+
+/*Extra Large XL */
+@media (min-width: 1280px) {
+
+}
+
+/* EXTRA Extra Large - XXL */
+@media (min-width: 1536px) {
+
+}
